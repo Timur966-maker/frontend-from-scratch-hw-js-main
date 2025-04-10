@@ -9,9 +9,11 @@
 
 // тестовые данные (значения можно менять)
 const isAdmin = true
-const isVerifiedUser = true
+const isVerifiedUser = false
 const hasSpecialPermission = true
-const hasTemporaryPass = true
+const hasTemporaryPass = false
+
+let isAccess = true
 
 
 while (isAdmin === true || isVerifiedUser === true) {
@@ -21,7 +23,7 @@ while (isAdmin === true || isVerifiedUser === true) {
         isAccess = false
     }
 }
-let isAccess = true
+
 
 
 // your code
