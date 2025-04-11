@@ -22,6 +22,10 @@ while (isAdmin === true || isVerifiedUser === true) {
     }else {
         isAccess = false
     }
+    if(isAdmin) {
+  
+        break
+    }
 }
 
 
