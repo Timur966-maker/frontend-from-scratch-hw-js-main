@@ -5,9 +5,12 @@
  */
 
 const score = 70 // тестовое значение, можно изменять
-let grade = rating
 
 let rating;
+
+let grade = rating
+
+
 
 if(score <= 49){
     rating = "F"
@@ -21,3 +24,4 @@ if(score <= 49){
     rating = "A"
 }
 // your code
+console.log(rating);

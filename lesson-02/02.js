@@ -12,10 +12,6 @@ let dice2 = Math.floor(Math.random() * 6) + 1
 let isWinningDouble = false;
 
 
-
-console.log("Первый бросок: " + dice1);
-console.log("Второй бросок: " + dice2);
-
 if(dice1 === dice2 && dice1 > 3){
   console.log("Выигрышный дубль!" + dice1);
 
@@ -23,8 +19,6 @@ if(dice1 === dice2 && dice1 > 3){
 } else {
   console.log("Проигрышный дубль!")
 }
- console.log(dice1);
- 
 
 
 
