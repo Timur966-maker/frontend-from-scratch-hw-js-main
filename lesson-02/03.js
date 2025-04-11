@@ -5,5 +5,19 @@
  */
 
 const score = 70 // тестовое значение, можно изменять
-let grade
+let grade = rating
+
+let rating;
+
+if(score <= 49){
+    rating = "F"
+} else if (score >= 50 && score <= 69){
+    rating = "D"
+} else if (score >= 70 && score <= 79){
+    rating = "C"
+} else if (score >= 80 && score <= 89){
+    rating = "B"
+} else {
+    rating = "A"
+}
 // your code
